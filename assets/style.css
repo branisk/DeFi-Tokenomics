@@ -1,0 +1,28 @@
+.graph {
+  width: 50%;
+  display: inline-block;
+  padding: 1em;
+}
+
+.input {
+  width: 50px;
+}
+
+#taper {
+  width: 13em;
+  margin: 0 auto;
+}
+
+.center {
+    margin: 0 auto;
+    width: 80%;
+}
+
+html {
+  color: white;
+}
+
+.centerBlock {
+  display: table;
+  margin: auto;
+}
