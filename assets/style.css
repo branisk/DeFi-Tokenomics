@@ -2,10 +2,14 @@
   width: 50%;
   display: inline-block;
   padding: 1em;
+  height: 45vh;
 }
 
-.input {
-  width: 50px;
+.graph1 {
+  width: 33%;
+  display: inline-block;
+  padding: 1em;
+  height: 45vh !important;
 }
 
 #taper {
@@ -15,14 +19,268 @@
 
 .center {
     margin: 0 auto;
-    width: 80%;
 }
 
-html {
-  color: white;
+input {
+  border-width: 1px 1px;
+  border-style: solid;
+  border-color: black !important;
+  background-color: gray;
+  text-align: center;
+  width: 10vw;
+}
+
+#taper {
+  visibility: hidden;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+h1, h2, h3, h5 {
+  color: gray !important;
+  font-family: open-sans, sans-serif;
+}
+
+h4 {
+  color: white !important;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+#tapertext {
+  visibility: hidden;
 }
 
 .centerBlock {
   display: table;
   margin: auto;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: blue; #replace blue with whatever color your want your font to be
+  opacity: 1; /* Firefox */
+}
+
+#defoPrice {
+  color:red !important;
+}
+
+#results {
+  text-decoration: underline !important;
+}
+
+#costTable {
+  width: 70%;
+}
+
+#title {
+  color: white !important;
+}
+
+.section {
+  margin-top: 1em;
+  height: 8vh !important;
+  width: 60em !important;
+  margin-left: 0em !important;
+}
+
+.section2 {
+  border-radius: 10px !important;
+  border: .5px .5px;
+  border-color: gray;
+  /*border-style: solid !important;*/
+  height: 90vh !important;
+  overflow: hidden;
+  position: relative;
+  /*box-shadow: -5px 5px;*/
+  color: gray;
+}
+
+.rc-slider-track {
+  background-color: gray;
+}
+
+.rc-slider-dot-active {
+  border-color: gray;
+  border: solid 2px gray;
+}
+
+.rc-slider-handle {
+  background-color: black;
+  border-color: gray;
+}
+
+.rc-slider-handle:hover {
+  border-color: gray;
+}
+
+.rc-slider-handle-active:active {
+  border-color: gray;
+}
+
+.resultsContainer {
+}
+
+.container-fluid {
+  width: 80%;
+}
+
+.general-parameters {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.c-left {
+  display: inline-block !important;
+  margin-right: -1vw !important;
+  padding: 0 0 !important;
+}
+
+.c-right {
+  padding-left: 0;
+  margin-left: -8vw !important;
+}
+
+.spread {
+  padding-top: .95vh;
+}
+
+.closer {
+  margin-left: -6vw;
+  margin-right: -6vw;
+}
+
+.more {
+  position: relative;
+  margin-right: 0vw;
+  left: 8vw;
+}
+
+.more1 {
+  position: relative;
+  margin-right: 0vw;
+  left: 10vw;
+}
+
+#header1 {
+  position: absolute;
+  left: 14vw;
+}
+
+#header2 {
+  position: relative;
+  left: 53vw;
+}
+
+#header3 {
+  position: relative;
+  left:32vw !important;
+}
+
+#header4 {
+  position: relative;
+  left: 16vw;
+}
+
+#header5 {
+  position: relative;
+  left: 16vw;
+}
+
+#parameter-table5 {
+  width: 10vw;
+  left: 10vw;
+  top: 2vh;
+}
+
+#parameter-table1 {
+  width: 38vw;
+}
+
+#stabilize-button {
+  position: absolute;
+  left: -25vw;
+  top: 80vh;
+}
+
+#buyback-text {
+  padding-top: .5vh;
+}
+
+#buyback-button {
+  position: absolute;
+  left: -25vw;
+  top: 83vh;
+}
+
+#add-liquidity-button {
+  position: absolute;
+  left: -25vw;
+  top: 86vh;
+}
+
+#add-liquidity-text {
+  padding-top: .5vh;
+}
+
+
+#holdRate {
+  display: inline-block;
+  width: 30vw;
+  position: absolute;
+  top:82.8vh;
+  right: 0;
+}
+
+#hold-rate-text {
+  position:absolute;
+  right: -51.5vw;
+}
+
+#stabilizationCap {
+    display: inline-block;
+    position: absolute;
+    top:80vh;
+    left: 14vw;
+    width: 3vw;
+}
+
+#capText {
+    display: inline-block;
+    position: absolute;
+    top:80.5vh;
+    left: 12vw;
+    width: 3vw;
+}
+
+#sell-on-node-text {
+  position:absolute;
+  right: -18vw;
+  top: 80.5vh;
+}
+
+#sell-on-node-button {
+  position: absolute;
+  left: 20vw;
+  top: 80vh;
+  width: 20vw;
+}
+
+#sell-rate {
+  position: absolute;
+  top:80vh;
+  left: 32vw;
+  width: 3vw;
 }
