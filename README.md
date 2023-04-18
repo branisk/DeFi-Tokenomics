@@ -1,7 +1,7 @@
 # DeFi Tokenomics
 ## Overview
 
-This is a Web3 decentralized finance simulation model of a nodes as a service protocol where rewards are given in the form of the protocol's currency to owners of an NFT. The rewards are given over time, subject to defined mechanics. The model is built into a Python Plotly Dash dashboard where users can change parameters, download parameters and upload them, overwrite the parameters, visualize the results. The dashboard can also be viewed in its entirety at branisk.pythonanywhere.com.
+This is a Web3 decentralized finance simulation model of a nodes as a service protocol where rewards are given in the form of the protocol's currency to owners of an NFT. The rewards are given over time, subject to defined mechanics. The model is built into a Python Plotly Dash dashboard where users can change parameters, download parameters and upload them, overwrite the parameters, visualize the results. The dashboard can also be viewed in its entirety at [branisk.pythonanywhere.com].
 
 ## Description
 
